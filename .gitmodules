@@ -1,6 +1,0 @@
-[submodule "ouv_dooks/mon_code_partage"]
-	path = ouv_dooks/mon_code_partage
-	url = https://github.com/ouvsysteme5213-gif/ouv.git
-[submodule "ouv_dooks/packages/ouv_logic"]
-	path = ouv_dooks/packages/ouv_logic
-	url = https://github.com/ouvsysteme5213-gif/ouv.git
