@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "282714124997",
+    "project_id": "ouvsysteme",
+    "storage_bucket": "ouvsysteme.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282714124997:android:a2e8b555346429f49436ac",
+        "android_client_info": {
+          "package_name": "com.example.ouv_dooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282714124997-fi3hanmieuol59b0aue4ctqt99rqjgof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ73H9kmgNeHH1LXruMEGZDo2x3yo5fCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282714124997-fi3hanmieuol59b0aue4ctqt99rqjgof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
