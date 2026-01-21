@@ -1,0 +1,3 @@
+[submodule "ouv_dooks/packages/ouv_logic"]
+	path = ouv_dooks/packages/ouv_logic
+	url = https://github.com/ouvsysteme5213-gif/ouv.git
