@@ -30,6 +30,14 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.8
   firebase_core: ^4.4.0
+
+  shared_ui:
+    path: ./packages/ouv_logic/shared_ui
+  shared_utils:
+    path: ./packages/ouv_logic/shared_utils
+  models:
+    path: ./packages/ouv_logic/models
+
   flutter:
     sdk: flutter
 
