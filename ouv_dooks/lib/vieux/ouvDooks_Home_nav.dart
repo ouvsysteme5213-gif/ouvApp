@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ouv_dooks/vieux/ouvCitaions/ouv_citations.dart';
-
 
 class OuvDooksHomeNav extends StatefulWidget {
+  final List<Widget> pages;
+
+  const OuvDooksHomeNav({super.key, required this.pages});
+
   @override
   State<OuvDooksHomeNav> createState() => OuvDooksHomeNavState();
 }
@@ -10,16 +12,10 @@ class OuvDooksHomeNav extends StatefulWidget {
 class OuvDooksHomeNavState extends State<OuvDooksHomeNav> {
   int currentPageIndex = 0;
 
-  final _pages = [
-    OuvCitations(),
-    Text("Livres"),
-    Text("Paramètres")
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _pages[currentPageIndex],
+      body: widget.pages[currentPageIndex],
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
           setState(() {

@@ -30,6 +30,8 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.8
   firebase_core: ^4.4.0
+  provider: ^6.1.5+1
+  connectivity_plus: ^7.0.0
 
   shared_ui:
     path: ./packages/ouv_logic/shared_ui
@@ -37,12 +39,17 @@ dependencies:
     path: ./packages/ouv_logic/shared_utils
   models:
     path: ./packages/ouv_logic/models
+  authentication:
+    path: ./packages/ouv_logic/authentication
+  api_clients:
+    path: ./packages/ouv_logic/api_clients
+
 
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
 
@@ -82,3 +89,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+  assets:
+    - packages/ouv_logic/models/assets/
+    - packages/ouv_logic/models/assets/logo/
+    - assets/
+    - assets/fonts/
+    - assets/image/
+    - assets/image/social/
+    - assets/doooks/
